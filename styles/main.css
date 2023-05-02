@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --body-bg: #121212;
+    --text-color:#ffffff;
+
+    --primary-color: #e01e37;
+    --secondary-color: #ffffff;
+    --third-color: #cccccc;
+    --fourth-color: #1a1a1a;
+
+    --btn-color: #ffff;
+}
+
+.light-mode:root {
+    --body-bg: #f3f3f3;
+    --text-color:#000000;
+    
+
+    --primary-color: #891ee0;
+    --secondary-color: #1f1f1f;
+    --third-color: #000000;
+    --fourth-color: #e6e6e6;
+
+
+
+    --btn-color: #ffff;
+    
+}
+
+.container{
+  overflow-y: hidden;
+}
+
+html{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: 'poppins';
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--body-bg);
+}
+
+/* estilo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 5px;
+    height: auto;
+  }
+  
+/* estilo do thumb da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+  }
+  
+  /* estilo do track da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #ff000000;
+    border-radius: 0px;
+  }
