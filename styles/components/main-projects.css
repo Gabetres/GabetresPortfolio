@@ -1,0 +1,38 @@
+.h1-project {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.h3-project {
+    color: var(--btn-color);
+    position: relative;
+    font-size: 1.3rem;
+    top: 90%;
+    display: inline;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    
+}
+
+.img-project {
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px #00000034;
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    z-index: 1;
+}
+
+@media (min-width: 768px){
+    .h3-project{
+        display: none;
+    }
+
+    .h3-project:hover{
+        display: inline;
+    }
+}
+
+
+
+  

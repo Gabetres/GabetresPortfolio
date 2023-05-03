@@ -33,6 +33,7 @@
 
     <!-- Components -->
     <link rel="stylesheet" href="styles/components/main-header.css">
+    <link rel="stylesheet" href="styles/components/main-projects.css">
     <link rel="stylesheet" href="styles/components/main-form.css">
 
     <title>Gabetres</title>
@@ -47,8 +48,8 @@
                     <i id="mode-icon" class="fa-solid fa-sun "></i>
                     <i id="toggle-list" class="fa-solid fa-bars"></i>
                 </div>
-
-                <ul class="nav-list d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center gap-3 mx-md-4">
+                <ul
+                    class="nav-list d-flex flex-column flex-md-row justify-content-center justify-content-md-end align-items-center gap-3 mx-md-4">
                     <span class="mb-5 material-symbols-rounded close-list">close</span>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Projects</a></li>
@@ -58,20 +59,53 @@
             </div>
         </nav>
     </header>
-    <!-- Form -->
-    <div class="container my-3 d-flex flex-column align-items-center">
-        <h1 class="titleform mb-4">Entre em contato</h1>
-        <form class="contact" id="contact-form">
 
-            <div class="name-mail">
-                <input required placeholder="Enter your name" name="user_name" id="user_name" type="text">
-                <input required placeholder="Enter your email" name="user_email" id="user_email" type="email">
+    <!-- Projects -->
+
+    <section>
+        <div class="container mb-5">
+            <h1 class="h1-project text-center">Projetos Recentes</h1>
+            <div class="recent-project d-flex flex-wrap justify-content-center">
+
+                <div class="project text-center m-2 col-12 col-sm-8 col-md-7 col-lg-3">
+                    <h3 class="h3-project px-4 py-1">Projeto 1</h3>
+                    <img class="img-project"
+                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                </div>
+
+                <div class="project text-center m-2 col-12 col-sm-8 col-md-7 col-lg-3">
+                    <h3 class="h3-project px-4 py-1">Projeto 1</h3>
+                    <img class="img-project"
+                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                </div>
+
+                <div class="project text-center m-2 col-12 col-sm-8 col-md-7 col-lg-3">
+                    <h3 class="h3-project px-4 py-1">Projeto 1</h3>
+                    <img class="img-project"
+                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                </div>
+
             </div>
+        </div>
+    </section>
 
-            <textarea placeholder="Enter your mensage" class="ask" name="user_ask" id="message" required></textarea>
 
-            <button class="submit-btn" type="submit">Send </button>
-        </form>
+
+    <!-- Form -->
+    <div
+        class="container-fluid col-12 col-sm-10 col-lg-8 col-xl-7 col-xxl-4 d-flex flex-column align-items-center my-3">
+        <h3 class="titleform mb-4">Entre em contato</h1>
+            <form class="contact" id="contact-form">
+                <div class="name-mail">
+                    <input required placeholder="Enter your name" name="user_name" id="user_name" type="text">
+                    <input required placeholder="Enter your email" name="user_email" id="user_email" type="email">
+                </div>
+                <textarea placeholder="Enter your mensage" class="ask" name="user_ask" id="message" required></textarea>
+                <button class="submit-btn" type="submit">Send </button>
+            </form>
     </div>
 
 
