@@ -1,0 +1,43 @@
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer{
+    margin-top: 10vh;
+    padding: 0;
+    position: relative;
+    font-weight: 600;
+}
+
+.footer-links{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social{
+    color: var(--btn-color);
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.60rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    transition: 200ms;
+}
+
+.footer-social:hover{
+}
+
+.footer-credit{
+    background-color: var(--fourth-color);
+    height: 10rem;
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+
+.footer-copyright{
+    height: 4rem;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--btn-color);
+}
