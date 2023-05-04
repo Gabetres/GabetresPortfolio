@@ -9,6 +9,7 @@ p{
     padding: 0;
     position: relative;
     font-weight: 600;
+    box-shadow: 0px 5px 25px #00000034;
 }
 
 .footer-links{
@@ -22,11 +23,9 @@ p{
     padding: 0.25rem 0.60rem;
     border-radius: 5px;
     font-size: 1.5rem;
-    transition: 200ms;
 }
 
-.footer-social:hover{
-}
+
 
 .footer-credit{
     background-color: var(--fourth-color);
