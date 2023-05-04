@@ -49,6 +49,7 @@ span.close-list {
 .nav-list {
 
     list-style: none;
+    margin: 0;
 
     background-color: transparent;
     backdrop-filter: blur(25px);
@@ -61,7 +62,7 @@ span.close-list {
 
     transform: translateX(100%);
     transition: ease-out 200ms;
-
+    z-index: 2;
 
 }
 
