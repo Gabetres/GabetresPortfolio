@@ -1,0 +1,17 @@
+.main-skills{
+    height: 20rem;
+    background-color: var(--primary-color);
+}
+
+.main-skills h2{
+    margin-bottom: 2vw;
+    font-size: 3em;
+    font-weight: 700;
+
+    color: var(--btn-color);
+}
+
+.main-skills i{
+    color: var(--btn-color);
+    font-size: 3.5em;
+}

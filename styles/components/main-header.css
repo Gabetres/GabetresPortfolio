@@ -1,9 +1,9 @@
-span {
+h2 {
     color: var(--secondary-color);
 
 }
 
-span>.logo {
+h2>.logo {
     color: var(--primary-color);
 }
 
