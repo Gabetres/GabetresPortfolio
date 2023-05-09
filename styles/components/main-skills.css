@@ -1,6 +1,7 @@
 .main-skills{
-    height: 20rem;
+    height: 40em;
     background-color: var(--primary-color);
+    box-shadow: 0px 0px 25px #0000003d;
 }
 
 .main-skills h2{
@@ -12,6 +13,25 @@
 }
 
 .main-skills i{
-    color: var(--btn-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    color: var(--primary-color);
+    background-color: var(--btn-color);
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px #0000003a;
     font-size: 3.5em;
+}
+
+@media (min-width: 768px){
+    .main-skills{
+        height: 25em;
+    }
+    
+    .main-skills i{
+        height: 100px;
+        width: 100px;
+    }
 }

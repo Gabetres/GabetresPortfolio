@@ -1,5 +1,6 @@
 h2 {
     color: var(--secondary-color);
+    margin: 0;
 
 }
 
@@ -35,6 +36,7 @@ header {
 #toggle-list:hover {
     cursor: pointer;
     color: var(--primary-color);
+    box-shadow: 0px 0px 15px #0000009a;
 }
 
 span.close-list {
@@ -83,10 +85,18 @@ span.close-list {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
 
     nav {
         justify-content: space-between;
+    }
+
+    h2{
+        font-size: 0.75em;
+    }
+
+    #mode-icon{
+        font-size: 0.75em;
     }
 
     #toggle-list {
@@ -98,9 +108,13 @@ span.close-list {
     }
 
     .nav-list {
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: none;
         background-color: transparent;
-        box-shadow: none;
+        box-shadow: unset;
         margin-bottom: 0;
         position: unset;
         height: auto;
@@ -111,6 +125,22 @@ span.close-list {
 
 
     .nav-list a {
-        font-size: 18pt;
+        font-size: 0.75em;
     }
+}
+
+@media (min-width: 768px){
+    h2{
+        font-size: 1em;
+    }
+
+    #mode-icon{
+        font-size: 1em;
+    }
+
+    .nav-list a {
+        font-size: 0.85em;
+    }
+
+
 }
