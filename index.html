@@ -80,65 +80,76 @@
         </div>
     </section>
 
-    <!-- Projects -->
+    <main class="container">
 
-    <section>
-        <div class="container mb-5">
-            <h1 class="h1-project text-center">Projetos Recentes</h1>
-            <div class="recent-project d-flex flex-wrap justify-content-center">
+        <!-- Projects -->
+        <section>
+            <div class="container mb-5">
+                <h1 class="h1-project text-center">Projetos Recentes</h1>
+                <div class="recent-project d-flex flex-wrap justify-content-center">
 
-                <div class="project text-center mx-2 col-12 col-sm-8 col-md-7 col-lg-3">
-                    <h3 class="h3-project px-4 py-1">Projeto 1</h3>
-                    <img class="img-project"
-                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
-                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                    <div class="project text-center mx-2 col-12 col-sm-8  col-lg-3">
+                        <h3 class="h3-project px-4 py-1">Projeto 1</h3>
+                        <img class="img-project"
+                            src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                            alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                    </div>
+
+                    <div class="project text-center mx-2 col-12 col-sm-8  col-lg-3">
+                        <h3 class="h3-project px-4 py-1">Projeto 2</h3>
+                        <img class="img-project"
+                            src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                            alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                    </div>
+
+                    <div class="project text-center mx-2 col-12 col-sm-8 col-lg-3">
+                        <h3 class="h3-project px-4 py-1">Projeto 3</h3>
+                        <img class="img-project"
+                            src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
+                            alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
+                    </div>
+
                 </div>
-
-                <div class="project text-center mx-2 col-12 col-sm-8 col-md-7 col-lg-3">
-                    <h3 class="h3-project px-4 py-1">Projeto 2</h3>
-                    <img class="img-project"
-                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
-                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
-                </div>
-
-                <div class="project text-center mx-2 col-12 col-sm-8 col-md-7 col-lg-3">
-                    <h3 class="h3-project px-4 py-1">Projeto 3</h3>
-                    <img class="img-project"
-                        src="https://fastly.picsum.photos/id/767/1080/1080.jpg?hmac=T33HomyNCV41nPJgz8e4rcDaZ4ZN1EIjI2WxjEHeiqA"
-                        alt=""><a href="#" target="_blank" rel="noopener noreferrer"></a></img>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
 
+        <!-- Form -->
 
-    <!-- Form -->
-    <div class="container col-md-10 col-lg-8 col-lg-6 col-xxl-5 d-flex flex-column align-items-center my-3">
-        <h3 class="titleform mb-4">Entre em contato</h1>
-            <form class="contact" id="contact-form">
-                <div class="name-mail">
-                    <input required placeholder="Enter your name" name="user_name" id="user_name" type="text">
-                    <input required placeholder="Enter your email" name="user_email" id="user_email" type="email">
-                </div>
-                <textarea placeholder="Enter your mensage" class="ask" name="user_ask" id="message" required></textarea>
-                <button class="submit-btn" type="submit">Send </button>
-            </form>
-    </div>
-
+        <section class="container d-flex flex-column flex-lg-row  align-items-center my-3">
+            <div class="position-form col-12 col-md-11 col-lg-6">
+                <h3 class="titleform text-center text-lg-start mb-4">Entre em contato</h3>
+                <form class="contact" id="contact-form">
+                    <div class="name-mail">
+                        <input required placeholder="Enter your name" name="user_name" id="user_name" type="text">
+                        <input required placeholder="Enter your email" name="user_email" id="user_email" type="email">
+                    </div>
+                    <textarea placeholder="Enter your mensage" class="ask" name="user_ask" id="message"
+                        required></textarea>
+                    <button class="submit-btn" type="submit">Send </button>
+                </form>
+            </div>
+            <div class=" form-svg container mx-5 col-lg-5">
+                <img id="mail-dark" src="img/dmail.svg" alt="">
+                <img id="mail-light" src="img/lmail.svg" alt="">
+            </div>
+        </section>
+    </main>
     <!-- Footer -->
 
     <footer class="main-footer d-flex flex-column container-fluid">
         <div class="footer-credit d-flex flex-column justify-content-center align-items-center gap-2">
             <p>Gabriel Tres</p>
             <ul class="footer-links d-flex justify-content-center gap-3">
-                <li><a class="footer-social" href="https://github.com/Gabetres" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
-                <li><a class="footer-social" href="https://www.linkedin.com/in/gabriel-tres-037140146/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a class="footer-social" href="https://www.instagram.com/gabetresdev/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="footer-social" href="https://github.com/Gabetres" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a></li>
+                <li><a class="footer-social" href="https://www.linkedin.com/in/gabriel-tres-037140146/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a class="footer-social" href="https://www.instagram.com/gabetresdev/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
-        <div class="footer-copyright d-flex flex-column justify-content-center align-items-center">
+        <div class="footer-copyright d-flex flex-row justify-content-center align-items-center">
             <p>&copy;Copyright Gabriel Tres 2023</p>
         </div>
     </footer>
