@@ -13,17 +13,15 @@ mode.addEventListener('click', () => {
     if(mode.classList.contains('fa-moon')){
         mode.classList.remove('fa-moon');
         mode.classList.add('fa-sun');
-        mailL.style.display="none"
-        mailD.style.display="inline"
-
-
+        mailD.classList.toggle('d-lg-none');
+        mailL.classList.toggle('d-lg-inline');
 
         return;
     }
         mode.classList.add('fa-moon');
         mode.classList.remove('fa-sun');
-        mailD.style.display="none"
-        mailL.style.display="inline"
+        mailD.classList.toggle('d-lg-none');
+        mailL.classList.toggle('d-lg-inline');
     }   
 );
 
