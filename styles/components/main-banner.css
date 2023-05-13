@@ -93,7 +93,7 @@
 }
 
 #gabriel-dark{
-    display: inline;
+    display: none;
 }
 
 #gabriel-light{
@@ -143,6 +143,14 @@
         z-index: 2;
         height: 53vw;
 
+    }
+    
+    #gabriel-dark{
+        display: inline;
+    }
+    
+    #gabriel-light{
+        display: none;
     }
 }
 
