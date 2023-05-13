@@ -4,6 +4,8 @@ const html = document.querySelector('html');
 const mode = document.querySelector('#mode-icon');
 const mailD = document.querySelector('#mail-dark')
 const mailL = document.querySelector('#mail-light')
+const gabrielD = document.querySelector('#gabriel-dark')
+const gabrielL = document.querySelector('#gabriel-light')
 
 mode.addEventListener('click', function(){
 html.classList.toggle('light-mode');
@@ -15,6 +17,8 @@ mode.addEventListener('click', () => {
         mode.classList.add('fa-sun');
         mailD.classList.toggle('d-lg-none');
         mailL.classList.toggle('d-lg-inline');
+        gabrielD.classList.toggle('d-sm-none');
+        gabrielL.classList.toggle('d-sm-inline');
 
         return;
     }
@@ -22,6 +26,8 @@ mode.addEventListener('click', () => {
         mode.classList.remove('fa-sun');
         mailD.classList.toggle('d-lg-none');
         mailL.classList.toggle('d-lg-inline');
+        gabrielD.classList.toggle('d-sm-none');
+        gabrielL.classList.toggle('d-sm-inline');
     }   
 );
 

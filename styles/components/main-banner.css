@@ -92,6 +92,14 @@
     max-height: 125vw;
 }
 
+#gabriel-dark{
+    display: inline;
+}
+
+#gabriel-light{
+    display: none;
+}
+
 
 
 
@@ -176,6 +184,7 @@
         height: 35em;
         
     }
+
 }
 
 @media (min-width: 1400px){
