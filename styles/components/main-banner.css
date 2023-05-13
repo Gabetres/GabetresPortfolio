@@ -1,3 +1,8 @@
+.banner {
+    margin: 0;
+    padding: 0;
+}
+
 .banner-main {
     margin-bottom: 3em;
     box-shadow: 0px 5px 6px #0000003f;
@@ -24,13 +29,13 @@
     color: var(--btn-color);
     font-weight: 600;
     line-height: 13px;
-    font-size: 13px;
+    font-size: 0.85em;
 }
 
 .banner-container h1 {
     margin: 0;
     margin-left: -0.1em;
-    font-size: 24px;
+    font-size: 1.7em;
     color: var(--btn-color);
 
 }
@@ -48,7 +53,6 @@
     padding: 0;
     margin: 0;
 }
-
 
 .banner-social a {
 
@@ -75,14 +79,125 @@
 
 .gabriel-img {
     position: relative;
+    height: 100%;
     width: 100%;
     display: flex;
-    justify-content: end;
-    margin-left: -9em;
+    justify-content: flex-end;
+    margin-left: -9.5em;
 
 }
 
 .gabriel-img img {
     z-index: 2;
     max-height: 125vw;
+}
+
+
+
+
+
+@media (min-width:576px) {
+
+
+
+    .banner-container {
+        height: 120vh;
+        background-color: transparent;
+
+    }
+
+    .banner-container h1 {
+        font-size: calc(2.5vw + 2.5vh + 1.45em);
+        color: var(--primary-color);
+    }
+
+    .banner-container p {
+        line-height: auto;
+        font-size: calc(1.2vw + 1.2vh + 0.55em);
+        color: var(--text-color);
+    }
+
+    .banner-social a {
+        margin-top: 0.8em;
+        min-width: 2.5em;
+        min-height: 2.5em;
+
+        color: var(--btn-color);
+        background-color: var(--primary-color);
+
+    }
+
+    .banner-social i {
+        font-size: calc(1.5vw + 0.55em);
+    }
+
+    .gabriel-img img {
+        z-index: 2;
+        height: 53vw;
+
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .banner-container h1 {
+        font-size: 5.5em;
+
+    }
+
+    .banner-container p {
+        line-height: 5px;
+        font-size: 2em;
+    }
+
+    .banner-container h1,
+    .banner-container p,
+    .banner-container ul {
+
+        z-index: 1;
+        position: relative;
+        top: 30px;
+        left: 5vw;
+    }
+
+    .banner-social a {
+        min-width: 3em;
+        min-height: 3em;
+        margin-top: 1.5em;
+    }
+
+    .gabriel-img{
+        right: 5vw;
+    }
+
+    .gabriel-img img{
+        height: 35em;
+        
+    }
+}
+
+@media (min-width: 1400px){
+
+    .banner-container{
+        height: 50vh;
+    }
+
+    .banner-container h1,
+    .banner-container p,
+    .banner-container ul {
+        /* left: 10vw; */
+        left: unset;
+    }
+
+    .gabriel-img{
+        margin-left: -76vw;
+        right: unset;
+    }
+
+    .gabriel-img img{
+        height: 85vh;
+        
+    }
 }
