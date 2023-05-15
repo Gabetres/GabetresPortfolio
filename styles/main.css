@@ -30,11 +30,12 @@
 
 *{
   scroll-behavior: smooth;
+  scroll-padding-top: 100px ;
 }
 
 html{
   height: 100%;
-  
+  overflow: hidden;
 }
 
 body {

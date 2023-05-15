@@ -14,14 +14,14 @@ h2>.logo {
 
 header {
     font-size: 1.8rem;
-}
+    background-color: var(--body-bg);
 
-header.sticky {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
+
 }
 
 
@@ -44,7 +44,6 @@ header.sticky {
 #toggle-list:hover {
     cursor: pointer;
     color: var(--primary-color);
-    box-shadow: 0px 0px 15px #0000009a;
 }
 
 span.close-list {
@@ -134,6 +133,11 @@ span.close-list {
 
     .nav-list a {
         font-size: 0.75em;
+        transition: 200ms;
+    }
+
+    .nav-list a:hover{
+        color: var(--primary-color);
     }
 }
 
