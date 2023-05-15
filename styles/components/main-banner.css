@@ -142,7 +142,6 @@
     .gabriel-img img {
         z-index: 2;
         height: 53vw;
-
     }
     
     #gabriel-dark{
@@ -206,6 +205,10 @@
     .banner-container ul {
         /* left: 10vw; */
         left: unset;
+    }
+
+    .banner-social i {
+        font-size: 1.5em;
     }
 
     .gabriel-img{
