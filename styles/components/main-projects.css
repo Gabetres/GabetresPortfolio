@@ -29,6 +29,25 @@
     z-index: 1;
 }
 
+.btn-project{
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--btn-color);
+
+    background-color: var(--primary-color);
+    margin-top: 1.2em;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    width: 50vw;
+}
+
+@media (min-width: 576px){
+    .btn-project{
+        width: 35%;
+    }
+}
+
+
 @media (min-width: 768px){
 
     .h3-project {
@@ -54,6 +73,10 @@
         transform: scale(1.02);
         overflow: hidden;
         
+    }
+
+    .btn-project{
+        width: 15em;
     }
 }
 
