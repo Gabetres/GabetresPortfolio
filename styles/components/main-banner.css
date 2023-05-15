@@ -4,7 +4,7 @@
 }
 
 .banner-main {
-    padding-top: 2em;
+    padding-top: 6em;
     margin-bottom: 3em;
     box-shadow: 0px 5px 6px #0000003f;
 }
@@ -29,14 +29,14 @@
 .banner-container p {
     color: var(--btn-color);
     font-weight: 600;
-    line-height: 13px;
-    font-size: 0.85em;
+    line-height: 20px;
+    font-size: 0.95em;
 }
 
 .banner-container h1 {
     margin: 0;
     margin-left: -0.1em;
-    font-size: 1.7em;
+    font-size: 1.8em;
     color: var(--btn-color);
 
 }
@@ -51,12 +51,12 @@
 }
 
 .banner-social {
+    z-index: 3;
     padding: 0;
     margin: 0;
 }
 
 .banner-social a {
-
     text-decoration: none;
 
     display: flex;
@@ -67,30 +67,35 @@
 
     background-color: var(--btn-color);
     border-radius: 5px;
-    width: 1.5em;
-    height: 1.5em;
+    width: calc(2em + 0.5vw);
+    height: calc(2em + 0.5vw);
 
     color: var(--primary-color);
 
 }
 
 .banner-social i {
-    font-size: 1em;
+    
+    font-size: calc(1.3em + 0.5vw);
 }
 
 .gabriel-img {
+    
     position: relative;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-left: -9.5em;
+    margin-left: -4.5em;
+    /* margin-left: -15vw; */
+    margin-bottom: -2em;
 
 }
 
 .gabriel-img img {
+    
     z-index: 2;
-    max-height: 125vw;
+    max-height: 100vw;
 }
 
 #gabriel-dark{
