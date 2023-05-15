@@ -115,7 +115,7 @@
 
 
     .banner-container {
-        height: 120vh;
+        height: 25em;
         background-color: transparent;
 
     }
@@ -158,6 +158,45 @@
         display: none;
     }
 }
+
+@media (min-width: 768px) { 
+
+    .banner-container h1 {
+        font-size: 3.8em;
+
+    }
+
+    .banner-container p {
+        line-height: 9px;
+        font-size: 1.45em;
+    }
+
+    .banner-social a {
+        margin-top: 1.2em;
+        min-width: 2.5em;
+        min-height: 2.5em;
+
+    }
+
+ }
+
+ @media (min-width: 992px) { 
+
+    .banner-container h1,
+    .banner-container p,
+    .banner-container ul {
+
+        z-index: 1;
+        position: relative;
+        top: 30px;
+        left: 3vw;
+    }
+
+    .gabriel-img{
+        right: 3vw;
+    }
+
+  }
 
 
 @media (min-width: 1200px) {
