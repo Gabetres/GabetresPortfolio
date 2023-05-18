@@ -37,7 +37,9 @@
     margin: 0;
     margin-left: -0.1em;
     font-size: 1.8em;
+    font-weight: 600;
     color: var(--btn-color);
+    
 
 }
 
