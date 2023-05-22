@@ -10,6 +10,9 @@
     --fourth-color: #1a1a1a;
 
     --btn-color: #ffff;
+
+    --deg: linear-gradient(0deg, #e01e37 0%, rgba(2, 0, 36, 0) 50%);  
+
 }
 
 .light-mode:root {
@@ -26,6 +29,7 @@
 
     --btn-color: #ffff;
     
+    --deg: linear-gradient(0deg, #891ee0 0%, rgba(2, 0, 36, 0) 50%);  
 }
 
 *{
