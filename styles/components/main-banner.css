@@ -24,6 +24,9 @@
 
     height: 100vw;
     border-radius: 5px;
+
+    animation: slideInLeft;
+    animation-duration: 1.5s;
 }
 
 .banner-container p {
@@ -82,7 +85,8 @@
 }
 
 .gabriel-img {
-    
+    animation: slideInRight;
+    animation-duration: 1.5s;
     position: relative;
     height: 100%;
     width: 100%;
@@ -120,17 +124,22 @@
         height: 25em;
         background-color: transparent;
 
+        animation: unset;
+        
     }
 
     .banner-container h1 {
         font-size: calc(2.5vw + 2.5vh + 1.45em);
         color: var(--primary-color);
+
     }
 
     .banner-container p {
         line-height: auto;
         font-size: calc(1.2vw + 1.2vh + 0.55em);
         color: var(--text-color);
+
+
     }
 
     .banner-social a {
@@ -145,6 +154,10 @@
 
     .banner-social i {
         font-size: calc(1.5vw + 0.55em);
+    }
+
+    .gabriel-img{
+        animation: unset;
     }
 
     .gabriel-img img {
