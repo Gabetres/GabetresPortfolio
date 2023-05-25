@@ -49,6 +49,10 @@ body {
   background-color: var(--body-bg);
 }
 
+/* section{
+  margin-bottom: 20vw;
+} */
+
 /* estilo da barra de rolagem */
 ::-webkit-scrollbar {
     width: 5px;
