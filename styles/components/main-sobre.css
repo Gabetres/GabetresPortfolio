@@ -1,5 +1,7 @@
 .sobre-main {
     width: 320px;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 .sobre-main p {
@@ -13,11 +15,11 @@
     color: var(--primary-color);
 }
 
-#notebook-light{
+#notebook-light {
     display: none;
 }
 
-#notebook-dark{
+#notebook-dark {
     display: none;
 }
 
@@ -65,7 +67,9 @@
 
 @media (min-width: 768px) {
     .sobre-main {
-        width: unset; 
+        width: unset;
+        padding-top: 12vh;
+        padding-bottom: 12vh;
     }
 
     .h2-sobre {
@@ -85,11 +89,11 @@
         margin-left: -2em;
     }
 
-    #notebook-light{
+    #notebook-light {
         display: none;
     }
-    
-    #notebook-dark{
+
+    #notebook-dark {
         display: inline;
     }
 
@@ -103,3 +107,28 @@
     }
 }
 
+@media (min-width: 1200px) {
+
+    .sobre-main{
+        padding: unset;
+        padding-top: 18vh;
+    }
+
+    .container-text-sobre {
+        transform: scale(1.2);
+    }
+
+    .sobre-notebook {
+        transform: scale(1.5);
+    }
+
+    .svg-container {
+        margin-left: 6em;
+
+    }
+
+    .svg-sobre {
+        transform: scale(1.1);
+        margin-top: 4em;
+    }
+}
