@@ -42,7 +42,7 @@
     font-size: 1.8em;
     font-weight: 600;
     color: var(--btn-color);
-    
+
 
 }
 
@@ -80,7 +80,7 @@
 }
 
 .banner-social i {
-    
+
     font-size: calc(1.3em + 0.5vw);
 }
 
@@ -99,16 +99,16 @@
 }
 
 .gabriel-img img {
-    
+
     z-index: 2;
     max-height: 100vw;
 }
 
-#gabriel-dark{
+#gabriel-dark {
     display: none;
 }
 
-#gabriel-light{
+#gabriel-light {
     display: none;
 }
 
@@ -121,11 +121,11 @@
 
 
     .banner-container {
-        height: 25em;
+        height: 70vh;
         background-color: transparent;
 
         animation: unset;
-        
+
     }
 
     .banner-container h1 {
@@ -156,7 +156,7 @@
         font-size: calc(1.5vw + 0.55em);
     }
 
-    .gabriel-img{
+    .gabriel-img {
         animation: unset;
     }
 
@@ -164,17 +164,17 @@
         z-index: 2;
         height: 53vw;
     }
-    
-    #gabriel-dark{
+
+    #gabriel-dark {
         display: inline;
     }
-    
-    #gabriel-light{
+
+    #gabriel-light {
         display: none;
     }
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
     .banner-container h1 {
         font-size: 3.8em;
@@ -190,38 +190,66 @@
         margin-top: 1.2em;
         min-width: 2.5em;
         min-height: 2.5em;
+        transition: 200ms;
 
     }
 
- }
 
- @media (min-width: 992px) { 
+
+}
+
+@media (min-width: 992px) {
+
+    .banner-social a:hover {
+        transform: scale(1.25);
+    }
+
+    .banner-main {
+        padding-top: unset;
+    }
+
+    .banner-container {
+        height: 100vh;
+    }
+
+
+    .banner-container h1 {
+        font-size: 4.5em;
+
+    }
+
+    .banner-container p {
+        line-height: 5px;
+        font-size: 2em;
+    }
+
 
     .banner-container h1,
     .banner-container p,
     .banner-container ul {
-
+        margin-bottom: 7px;
         z-index: 1;
         position: relative;
         top: 30px;
         left: 3vw;
     }
 
-    .gabriel-img{
+    .gabriel-img {
         right: 3vw;
     }
 
-  }
+}
 
 
 @media (min-width: 1200px) {
 
-    .banner-main{
-        padding-top: 6em;
+    .banner-main {
+        padding-top: unset;
+        transform: scale(1.05);
     }
 
-    .banner-container{
-        height: 50vh;
+    .banner-container {
+        height: 100vh;
     }
 
     .banner-container h1 {
@@ -250,18 +278,18 @@
         margin-top: 1.5em;
     }
 
-    .gabriel-img{
+    .gabriel-img {
         right: 5vw;
     }
 
-    .gabriel-img img{
+    .gabriel-img img {
         height: 35em;
-        
+
     }
 
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1400px) {
 
 
 
@@ -276,13 +304,13 @@
         font-size: 1.5em;
     }
 
-    .gabriel-img{
+    .gabriel-img {
         margin-left: -76vw;
         right: unset;
     }
 
-    .gabriel-img img{
+    .gabriel-img img {
         max-height: 85vh;
-        
+
     }
 }

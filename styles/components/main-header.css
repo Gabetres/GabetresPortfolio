@@ -33,7 +33,7 @@ header {
 
 #mode-icon:hover {
     cursor: pointer;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 #toggle-list {
@@ -43,7 +43,7 @@ header {
 
 #toggle-list:hover {
     cursor: pointer;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
 }
 
 span.close-list {
@@ -142,6 +142,8 @@ span.close-list {
 }
 
 @media (min-width: 768px){
+
+
     h2{
         font-size: 1em;
     }
@@ -155,4 +157,17 @@ span.close-list {
     }
 
 
+}
+
+@media (min-width: 992px){
+    
+    #mode-icon:hover {
+        cursor: pointer;
+        color: var(--primary-color);
+    }
+
+    #toggle-list:hover {
+        cursor: pointer;
+        color: var(--primary-color);
+    }
 }
