@@ -78,6 +78,8 @@
 @media (min-width: 768px) {
 
     .h3-project {
+        text-align: center;
+        font-size: 0.85em;
         transition: 200ms;
         opacity: 0;
     }
