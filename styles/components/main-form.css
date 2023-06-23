@@ -88,11 +88,11 @@ button:hover {
     box-shadow: 0px 0px 15px var(--primary-color);
 }
 
-#mail-dark {
+#mail-light {
     display: none;
 }
 
-#mail-light {
+#mail-dark {
     display: none;
 }
 
@@ -121,11 +121,11 @@ button:hover {
 
     }
 
-    #mail-dark {
+    #mail-light {
         display: inline;
     }
 
-    #mail-light {
+    #mail-dark {
         display: none;
     }
 }

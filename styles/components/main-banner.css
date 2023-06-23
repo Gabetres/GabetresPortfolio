@@ -104,11 +104,11 @@
     max-height: 100vw;
 }
 
-#gabriel-dark {
+#gabriel-light {
     display: none;
 }
 
-#gabriel-light {
+#gabriel-dark {
     display: none;
 }
 
@@ -165,11 +165,11 @@
         height: 53vw;
     }
 
-    #gabriel-dark {
+    #gabriel-light {
         display: inline;
     }
 
-    #gabriel-light {
+    #gabriel-dark {
         display: none;
     }
 }

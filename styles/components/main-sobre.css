@@ -14,11 +14,11 @@
     color: var(--primary-color);
 }
 
-#notebook-light {
+#notebook-dark {
     display: none;
 }
 
-#notebook-dark {
+#notebook-light {
     display: none;
 }
 
@@ -88,11 +88,11 @@
         margin-left: -2em;
     }
 
-    #notebook-light {
+    #notebook-dark {
         display: none;
     }
 
-    #notebook-dark {
+    #notebook-light {
         display: inline;
     }
 
