@@ -26,8 +26,8 @@ mode.addEventListener('click', () => {
 
         return;
     }
-        mode.classList.add('fa-sun');
-        mode.classList.remove('fa-moon');
+        mode.classList.add('fa-moon');
+        mode.classList.remove('fa-sun');
         mailL.classList.toggle('d-lg-none');
         mailD.classList.toggle('d-lg-inline');
         gabrielL.classList.toggle('d-sm-none');
